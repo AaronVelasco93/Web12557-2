@@ -1,0 +1,1 @@
+INSERT INTO `test_php`.`persona` (`numero`, `nombre_usuario`, `carrera`, `no_cuenta`, `direccion`, `telefono`, `email`, `password`) VALUES ('1', 'Aron', 'ico', '413112576', 'aaron xochimiclo', '564181', 'aaron@gmail.com', '12356');
