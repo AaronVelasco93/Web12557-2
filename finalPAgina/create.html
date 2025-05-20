@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <h1>Agregar Usuario</h1>
+    <div class="centrandoContenido">
+        <form class="centro" action="./submit2.php" method="get">
+            <label for="nombreUsuario">Nombre Usuario:</label>
+                <input type="text" name="nombreUsuario" placeholder="Nombre de usuario">
+            <br><br>
+            <label for="carrera">Carrera</label>
+                <input type="text" name="usuarioCarrera" placeholder="Carrea academica">
+            <br><br>
+            <label for="">Numero de Cuenta</label>
+                <input type="text" name="no_cuenta"  maxlength="10">
+            <br><br>
+            <label for="">Direccion:</label>
+                <input type="text" name="direccion" id="">
+            <label for="">Telefono</label>
+                <input type="text" name="telefono" id="" maxlength="8">
+            <br><br>
+            <label for="">Correo:</label>
+                <input type="email" name="correo">
+            <br><br>
+            <label for="">Contraseña:</label>
+                <input type="text" name="contraseña" id=""  maxlength="8">
+
+            <button type="submit">Enviar datos</button>
+        </form>
+    </div>
+</body>
+
+</html>
